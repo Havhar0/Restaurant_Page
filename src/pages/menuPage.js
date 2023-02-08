@@ -6,54 +6,23 @@
 export default function menu() {
     
 
-    let wrapper = document.createElement('div');
-    wrapper.classList.add('wrapper');
-    content.append(wrapper);
 
-    let topPage = document.createElement('div');
-    topPage.classList.add('top');
-    wrapper.append(topPage);
+// ------------------------------ NAVBAR CLASS
 
-    let topLeft = document.createElement('div');
-    topLeft.classList.add('top-left');
-    topLeft.textContent = 'ODINSFEAST';
-    topPage.append(topLeft);
+    // let navbar = document.createElement('div');
+    // navbar.classList.add('navbar');
+    // topRight.append(navbar);
 
-    let topRight = document.createElement('div');
-    topRight.classList.add('top-right');
-    topPage.append(topRight);
+    // let tab1 = document.createElement('div');
+    // let tab1 = document.querySelector('.tab1');
+    // tab1.classList.add('navbar-tab-not-active');
+    
+    // navbar.append(tab1);
 
-// ------------------------------ NAVBAR
+    // tab2.classList.add('navbar-tab-active');
+    // navbar.append(tab2);
 
-    let navbar = document.createElement('div');
-    navbar.classList.add('navbar');
-    topRight.append(navbar);
-
-    let tab1 = document.createElement('div');
-    tab1.classList.add('navbar-tab-not-active');
-    tab1.id="home";
-    tab1.textContent = 'HOME';
-    tab1.addEventListener("click", (e) => {
-        clear();
-        home();
-    })
-    navbar.append(tab1);
-
-    let tab2 = document.createElement('div');
-    tab2.classList.add('navbar-tab-active');
-    tab2.id="menu";
-    tab2.textContent = 'MENU';
-    navbar.append(tab2);
-
-    let tab3 = document.createElement('div');
-    tab3.classList.add('navbar-tab-not-active');
-    tab3.id="contact";
-    tab3.textContent = 'CONTACT';
-    tab3.addEventListener("click", (e) => {
-        clear();
-        contact();
-    })
-    navbar.append(tab3);
+    let wrapper = document.querySelector('#content');
 
     let midPage = document.createElement('div');
     midPage.classList.add('mid-page');
