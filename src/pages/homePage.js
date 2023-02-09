@@ -1,6 +1,7 @@
-import contact from "./contactPage.js";
-import menu from "./menuPage.js";
+import menuLoad from "../functions/menuLoad.js";
+import contactLoad from "../functions/contactLoad.js";
 import clear from "../functions/clearPage.js";
+
 
 
 export default function home() {
@@ -41,7 +42,7 @@ export default function home() {
     tab2.textContent = 'MENU';
     tab2.addEventListener("click", (e) => {
         clear();
-        menu();
+        menuLoad();
     })
     navbar.append(tab2);
 
@@ -51,7 +52,7 @@ export default function home() {
     tab3.textContent = 'CONTACT';
     tab3.addEventListener("click", (e) => {
         clear();
-        contact();
+        contactLoad();
     })
     navbar.append(tab3);
 

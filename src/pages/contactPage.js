@@ -1,5 +1,5 @@
-import home from "./homePage.js";
-import menu from "./menuPage.js";
+import firstLoad from "../functions/firstLoad.js";
+import menuLoad from "../functions/menuLoad.js";
 import clear from "../functions/clearPage.js";
 
 export default function contact() {
@@ -34,7 +34,7 @@ export default function contact() {
     tab1.textContent = 'HOME';
     tab1.addEventListener("click", (e) => {
         clear();
-        home();
+        firstLoad();
     })
     navbar.append(tab1);
 
@@ -44,7 +44,7 @@ export default function contact() {
     tab2.textContent = 'MENU';
     tab2.addEventListener("click", (e) => {
         clear();
-        menu();
+        menuLoad();
     })
     navbar.append(tab2);
 
@@ -70,7 +70,7 @@ export default function contact() {
 
     let midLeftpara = document.createElement('div');
     midLeftpara.classList.add('mid-left-para');
-    midLeftpara.textContent = 'Welcome to Contact Page!';
+    midLeftpara.textContent = 'Contact Page!';
     midLeftcont.append(midLeftpara);
 
     let midLeftpara2 = document.createElement('div');
