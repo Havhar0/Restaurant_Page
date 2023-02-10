@@ -61,43 +61,57 @@ export default function menu() {
 
 // ------------------------------ MID LEFT
 
-    let midLeft = document.createElement('div');
-    midLeft.classList.add('mid-left');
-    midPage.append(midLeft);
+    let menuContainer = document.createElement('div');
+    menuContainer.classList.add('menu-container');
+    midPage.appendChild(menuContainer);
 
-    let midLeftcont = document.createElement('div');
-    midLeftcont.classList.add('mid-left-cont');
-    midLeft.append(midLeftcont);
+    let menuItem1 = document.createElement('div');
+    menuItem1.classList.add('menu-item1');
+    menuContainer.append(menuItem1);
 
-    let midLeftpara = document.createElement('div');
-    midLeftpara.classList.add('mid-left-para');
-    midLeftpara.textContent = 'Menu Page!';
-    midLeftcont.append(midLeftpara);
+    let menuItem1pic = document.createElement('div');
+    menuItem1pic.classList.add('menu-item1-pic');
+    menuItem1.append(menuItem1pic);
 
-    let midLeftpara2 = document.createElement('div');
-    midLeftpara2.classList.add('mid-left-para2');
-    midLeftpara2.textContent = 'Worlds most renowned nordic restaurant. One you will always come back to!';
-    midLeftcont.append(midLeftpara2);
+    let menuItem1para = document.createElement('div');
+    menuItem1para.classList.add('menu-item1-para');
+    menuItem1para.textContent = 'Odins Steak!';
+    menuItem1.append(menuItem1para);
 
-    let midLeftbody = document.createElement('div');
-    midLeftbody.classList.add('mid-left-body');
-    midLeftbody.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
-    midLeftcont.append(midLeftbody);
+ /* --2 */
+
+    let menuItem2 = document.createElement('div');
+    menuItem2.classList.add('menu-item2');
+    menuContainer.append(menuItem2);
+
+    let menuItem2pic = document.createElement('div');
+    menuItem2pic.classList.add('menu-item2-pic');
+    menuItem2.append(menuItem2pic);
+
+    let menuItem2para = document.createElement('div');
+    menuItem2para.classList.add('menu-item2-para');
+    menuItem2para.textContent = 'Odins Fish!';
+    menuItem2.append(menuItem2para);
+
+    
+    /* --3 */
+
+    let menuItem3 = document.createElement('div');
+    menuItem3.classList.add('menu-item3');
+    menuContainer.append(menuItem3);
+
+    let menuItem3pic = document.createElement('div');
+    menuItem3pic.classList.add('menu-item3-pic');
+    menuItem3.append(menuItem3pic);
+
+    let menuItem3para = document.createElement('div');
+    menuItem3para.classList.add('menu-item3-para');
+    menuItem3para.textContent = 'Odins Ribbs!';
+    menuItem3.append(menuItem3para);
 
 
-// ------------------------------  MID RIGHT
 
-    let midRight = document.createElement('div');
-    midRight.classList.add('mid-right');
-    midPage.append(midRight);
 
-    let midRightcont = document.createElement('div');
-    midRightcont.classList.add('mid-right-cont');
-    midRight.append(midRightcont);
-
-    let midRightbody = document.createElement('div');
-    midRightcont.classList.add('mid-right-body');
-    midRightcont.append(midRightbody);
     
 
 // ------------------------------ FOOTER
