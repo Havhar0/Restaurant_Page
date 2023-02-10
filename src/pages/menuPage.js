@@ -78,7 +78,15 @@ export default function menu() {
     menuItem1para.textContent = 'Odins Steak!';
     menuItem1.append(menuItem1para);
 
- /* --2 */
+    let menuItem1price = document.createElement('div');
+    menuItem1price.classList.add('menu-item-price');
+    menuItem1price.textContent = '£35';
+    menuItem1.append(menuItem1price);
+
+    let menuItem1body = document.createElement('div');
+    menuItem1body.classList.add('menu-item-body');
+    menuItem1body.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate';
+    menuItem1.append(menuItem1body);
 
     let menuItem2 = document.createElement('div');
     menuItem2.classList.add('menu-item2');
@@ -93,8 +101,15 @@ export default function menu() {
     menuItem2para.textContent = 'Odins Fish!';
     menuItem2.append(menuItem2para);
 
-    
-    /* --3 */
+    let menuItem2price = document.createElement('div');
+    menuItem2price.classList.add('menu-item-price');
+    menuItem2price.textContent = '£35';
+    menuItem2.append(menuItem2price);
+
+    let menuItem2body = document.createElement('div');
+    menuItem2body.classList.add('menu-item2-body');
+    menuItem2body.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate';
+    menuItem2.append(menuItem2body);
 
     let menuItem3 = document.createElement('div');
     menuItem3.classList.add('menu-item3');
@@ -109,10 +124,16 @@ export default function menu() {
     menuItem3para.textContent = 'Odins Ribbs!';
     menuItem3.append(menuItem3para);
 
+    let menuItem3price = document.createElement('div');
+    menuItem3price.classList.add('menu-item-price');
+    menuItem3price.textContent = '£35';
+    menuItem3.append(menuItem3price);
 
+    let menuItem3body = document.createElement('div');
+    menuItem3body.classList.add('menu-item3-body');
+    menuItem3body.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate';
+    menuItem3.append(menuItem3body);
 
-
-    
 
 // ------------------------------ FOOTER
 

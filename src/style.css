@@ -90,6 +90,7 @@ body {
     opacity: 0.6;
 }
 
+
 /* ------------------------- mid page */
 
 .mid-page {
@@ -147,7 +148,6 @@ body {
     padding-left: 30px;
 }
 
-
  .mid-right-cont {
     width: 400px;
     height: 400px;
@@ -202,12 +202,18 @@ body {
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    gap: 85px;
+    gap: 45px;
+    padding: 100px;
 }
 .menu-item1, .menu-item2, .menu-item3{
-    width: 100%;
-    height: 45%
-}
+
+    width: 250px;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
 
 .menu-item1-pic, .menu-item2-pic, .menu-item3-pic {
     width: 150px;
@@ -228,7 +234,23 @@ body {
 
 .menu-item1-para, .menu-item2-para, .menu-item3-para {
     margin-top: 25px;
-    font-size: 2.2em;
+    font-size: 2.35em;
     font-family: 'norsebold';
     color: white;
+}
+
+.menu-item-price {
+    margin-top: 10px;
+    font-size: 3em;
+    color: #f48245;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.menu-item-body, .menu-item2-body, .menu-item3-body {
+    margin-top: 10px;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    font-family: sans-serif;
 }
