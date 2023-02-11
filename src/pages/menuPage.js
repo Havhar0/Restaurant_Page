@@ -80,7 +80,7 @@ export default function menu() {
 
     let menuItem1price = document.createElement('div');
     menuItem1price.classList.add('menu-item-price');
-    menuItem1price.textContent = '£35';
+    menuItem1price.textContent = '£55';
     menuItem1.append(menuItem1price);
 
     let menuItem1body = document.createElement('div');
@@ -103,7 +103,7 @@ export default function menu() {
 
     let menuItem2price = document.createElement('div');
     menuItem2price.classList.add('menu-item-price');
-    menuItem2price.textContent = '£35';
+    menuItem2price.textContent = '£25';
     menuItem2.append(menuItem2price);
 
     let menuItem2body = document.createElement('div');
@@ -126,7 +126,7 @@ export default function menu() {
 
     let menuItem3price = document.createElement('div');
     menuItem3price.classList.add('menu-item-price');
-    menuItem3price.textContent = '£35';
+    menuItem3price.textContent = '£45';
     menuItem3.append(menuItem3price);
 
     let menuItem3body = document.createElement('div');

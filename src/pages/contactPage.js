@@ -60,43 +60,32 @@ export default function contact() {
 
 // ------------------------------ MID LEFT
 
-    let midLeft = document.createElement('div');
-    midLeft.classList.add('mid-left');
-    midPage.append(midLeft);
+let contactContainer = document.createElement('div');
+contactContainer.classList.add('contact-container');
+midPage.appendChild(contactContainer);
 
-    let midLeftcont = document.createElement('div');
-    midLeftcont.classList.add('mid-left-cont');
-    midLeft.append(midLeftcont);
+let contactMap = document.createElement('div');
+contactMap.classList.add('contact-map');
+contactContainer.append(contactMap);
 
-    let midLeftpara = document.createElement('div');
-    midLeftpara.classList.add('mid-left-para');
-    midLeftpara.textContent = 'Contact Page!';
-    midLeftcont.append(midLeftpara);
+let contactItem = document.createElement('div');
+contactItem.classList.add('contact-item');
+contactContainer.append(contactItem);
 
-    let midLeftpara2 = document.createElement('div');
-    midLeftpara2.classList.add('mid-left-para2');
-    midLeftpara2.textContent = 'Worlds most renowned nordic restaurant. One you will always come back to!';
-    midLeftcont.append(midLeftpara2);
+let contactPara1 = document.createElement('div');
+contactPara1.classList.add('contact-para1');
+contactPara1.textContent = 'Phone: 123 456 789';
+contactItem.append(contactPara1);
 
-    let midLeftbody = document.createElement('div');
-    midLeftbody.classList.add('mid-left-body');
-    midLeftbody.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
-    midLeftcont.append(midLeftbody);
+let contactPara2 = document.createElement('div');
+contactPara2.classList.add('contact-para2');
+contactPara2.textContent = 'e-mail: mr_odin@odinsfeast.com';
+contactItem.append(contactPara2);
 
-
-// ------------------------------  MID RIGHT
-
-    let midRight = document.createElement('div');
-    midRight.classList.add('mid-right');
-    midPage.append(midRight);
-
-    let midRightcont = document.createElement('div');
-    midRightcont.classList.add('mid-right-cont');
-    midRight.append(midRightcont);
-
-    let midRightbody = document.createElement('div');
-    midRightcont.classList.add('mid-right-body');
-    midRightcont.append(midRightbody);
+let contactPara3 = document.createElement('div');
+contactPara3.classList.add('contact-para3');
+contactPara3.textContent = 'address: 123 Valhalla St, Norway';
+contactItem.append(contactPara3);
     
 
 // ------------------------------ FOOTER

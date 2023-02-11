@@ -2,8 +2,6 @@ import menuLoad from "../functions/menuLoad.js";
 import contactLoad from "../functions/contactLoad.js";
 import clear from "../functions/clearPage.js";
 
-
-
 export default function home() {
 
     let wrapper = document.createElement('div');
@@ -22,7 +20,7 @@ export default function home() {
     let topRight = document.createElement('div');
     topRight.classList.add('top-right');
     topPage.append(topRight);
-
+    
     
 // ------------------------------ NAVBAR
 

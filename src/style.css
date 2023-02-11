@@ -241,10 +241,11 @@ body {
 
 .menu-item-price {
     margin-top: 10px;
-    font-size: 3em;
+    font-size: 4em;
     color: #f48245;
     font-weight: 100;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: 'norsebold';
 }
 
 .menu-item-body, .menu-item2-body, .menu-item3-body {
@@ -252,5 +253,46 @@ body {
     color: white;
     font-size: 0.8em;
     text-align: center;
+    font-family: sans-serif;
+}
+
+
+/* ------------- CONTACT PAGE ---*/
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-map {
+    width: 500px;
+    height: 300px;
+    background-image: url(images/map.png);
+    background-size: contain;
+    border: 2px solid white;
+}
+
+.contact-item {
+    width: 300px;
+    height: auto;
+    /* background-color: #f48245; */
+}
+
+.contact-para1{
+    font-size: 1em;
+    color: white;
+    font-family: sans-serif;
+}
+.contact-para2{
+    font-size: 1em;
+    color: white;
+    font-family: sans-serif;
+}
+.contact-para3{
+    font-size: 1em;
+    color: white;
     font-family: sans-serif;
 }
